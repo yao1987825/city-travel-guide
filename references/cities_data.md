@@ -28,9 +28,19 @@
 14. **郴州博物馆** — 免费，了解郴州历史文化
 15. **五岭广场/北湖公园** — 免费，本地人日常去处
 
+
+### 🏞️ 景点实景图片
+
+| 东江湖雾漫小东江 | 高椅岭丹霞 | 仰天湖大草原 |
+|:---:|:---:|:---:|
+| ![雾漫小东江](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E4%B8%9C%E6%B1%9F%E6%B9%96%E9%9B%BE%E6%BC%AB%E5%B0%8F%E4%B8%9C%E6%B1%9F_1.jpg) | ![高椅岭](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E9%AB%98%E6%A4%85%E5%B2%AD_1.jpg) | ![仰天湖](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E4%BB%B0%E5%A4%A9%E6%B9%96%E5%A4%A7%E8%8D%89%E5%8E%9F_1.jpg) |
+| 苏仙岭 | 万华岩溶洞 | 莽山国家森林公园 |
+|:---:|:---:|:---:|
+| ![苏仙岭](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E8%8B%8F%E4%BB%99%E5%B2%AD_1.jpg) | ![万华岩](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E4%B8%87%E5%8D%8E%E5%B2%A9_1.jpg) | ![莽山](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E8%8E%84%E5%B1%B1%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97_1.jpg) |
+
 ### 🍜 特色美食（实时价格版）
 
-![郴州美食-栖凤渡鱼粉](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/chenzhou-yufen.jpg)
+![郴州美食-栖凤渡鱼粉](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E6%A0%96%E5%87%A4%E6%B8%A1%E9%B1%BC%E7%B2%89_1.jpg)
 
 > 来源：搜狐号郴州美食攻略（2026年1月）、知乎郴州美食地图（2025年11月）
 
