@@ -186,3 +186,57 @@ python scripts/city_travel_search.py --type all
 # 关键词搜索（如搜索温泉相关内容）
 python scripts/city_travel_search.py --keyword 温泉
 ```
+
+---
+
+## 🖼️ 图片功能（高德地图 POI 实景图）
+
+每次回答景点/美食问题时，**请优先尝试获取高德地图实景图片**：
+
+### 触发时机
+- 用户问到任何景点时（含景点名、地址、特色）
+- 用户问到任何美食时（含美食名、推荐店铺）
+- 用户问到"推荐""必去""必吃"类问题时
+
+### 执行步骤
+
+1. **调用图片获取工具**（在 Skill 根目录执行）：
+   ```python
+   import sys
+   sys.path.insert(0, 'scripts')
+   from amap_images import get_poi_images
+
+   # 搜索景点图片
+   images = get_poi_images("东江湖", "郴州")
+   if images:
+       print(images[0]["url"])  # 第一个图片 URL
+
+   # 搜索美食图片
+   food_images = get_poi_images("栖凤渡鱼粉", "郴州")
+   ```
+
+2. **插入 Markdown 图片**：在回答中找到对应的景点/美食项，在其后插入：
+   ```
+   ![景点名](高德图片URL)
+   ```
+
+3. **若图片获取失败**：使用 markdown 文件已有的 `references/images/` 目录下的 AI 生成封面图兜底
+
+### ⚠️ 高德地图 API Key 配置（必须！）
+
+> 图片获取功能依赖高德地图 Web 服务 API，需要配置 Key 才能工作。
+
+**配置步骤：**
+1. 打开 [高德地图开放平台](https://console.amap.com/dev/key/app)，注册账号并创建应用
+2. 选择「Web 服务」类型，获取 Key（格式如 `8e3a2b1c4d5e6f...`）
+3. 打开 `scripts/amap_config.py`，将 Key 填入：
+   ```python
+   AMAP_KEY = "你的Key"
+   ```
+4. 验证配置：
+   ```bash
+   python scripts/amap_images.py --city 郴州 --keyword 东江湖
+   ```
+   若看到 `📷 [1] https://...` 输出则配置成功
+
+**免费额度**：高德地图 Web 服务 API 每日 5000 次调用，足够日常使用。
