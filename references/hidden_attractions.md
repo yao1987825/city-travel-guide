@@ -7,6 +7,8 @@
 
 ## 📍 长沙 · 6个隐藏宝藏
 
+![长沙隐藏秘境](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/changsha-cover.jpg)
+
 | 景点 | 地址 | 门票 | 特色 | 适合季节 |
 |------|------|------|------|---------|
 | **桃花岭景区** | 岳麓区梅溪湖路与近湖四路交叉口东南150米 | **免费** | 天然氧吧，瀑布森林，徒步吸氧，比岳麓山人少很多 | 四季 |
@@ -18,9 +20,13 @@
 
 > 🌟 特别推荐：裕湘纱厂（深秋红杉）、大山冲（夏秋绿意）、桃花岭（四季皆宜）
 
+![裕湘纱厂](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/changsha-yuxiang.jpg) ![桃花岭](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/changsha-taohuailing.jpg)
+
 ---
 
 ## 📍 深圳 · 10个隐藏版打卡地
+
+![深圳隐藏秘境](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/shenzhen-cover.jpg)
 
 | 景点 | 地址 | 门票 | 特色 | 出片指数 |
 |------|------|------|------|---------|
@@ -37,9 +43,13 @@
 
 > 🌟 特别推荐：甘坑客家小镇（古风）、北理莫斯科大学（欧洲校园感）、金啤坊（赛博工业风）
 
+![甘坑客家小镇](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/shenzhen-gankeng.jpg) ![北理莫斯科大学](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/shenzhen-hitsz.jpg)
+
 ---
 
 ## 📍 郴州 · 10个小众秘境
+
+![郴州隐藏秘境](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/chenzhou-cover.jpg)
 
 | 景点 | 地址 | 门票 | 特色 | 热度 |
 |------|------|------|------|------|
@@ -56,9 +66,13 @@
 
 > 🌟 特别推荐：马皇丘大峡谷（免费+震撼丹霞）、白廊（洱海感环湖）、五盖山（避暑秘境）
 
+![马皇丘大峡谷](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/chenzhou-mahuangqiu.jpg) ![白廊环湖](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/chenzhou-bailang.jpg)
+
 ---
 
 ## 📍 清远 · 8个免费秘境
+
+![清远隐藏秘境](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/qingyuan-cover.jpg)
 
 | 景点 | 地址 | 门票 | 特色 | 推荐理由 |
 |------|------|------|------|---------|
@@ -73,9 +87,13 @@
 
 > 🌟 特别推荐：桃花湖（广东小洱海）、天塘山（云海露营）、石角墟渡口（日落遛娃）
 
+![天塘山云海](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/qingyuan-tiantangshan.jpg) ![桃花湖](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/qingyuan-taohuahu.jpg)
+
 ---
 
 ## 📍 衡阳 · 10个小众秘境
+
+![衡阳隐藏秘境](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/hengyang-cover.jpg)
 
 | 景点 | 地址 | 门票 | 特色 | 适合人群 |
 |------|------|------|------|---------|
@@ -92,9 +110,13 @@
 
 > 🌟 特别推荐：雨母山艺术村落（文艺出片）、岐山雾海日出（摄影绝美）、江口鸟洲（亲子自然课）
 
+![岐山雾海](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/hengyang-qishan.jpg) ![雨母山艺术村落](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/hengyang-yumushan.jpg)
+
 ---
 
 ## 📍 韶关 · 10个冷门秘境
+
+![韶关隐藏秘境](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/shaoguan-cover.jpg)
 
 | 景点 | 地址 | 门票 | 特色 | 适合季节 |
 |------|------|------|------|---------|
@@ -111,9 +133,13 @@
 
 > 🌟 特别推荐：南岭红沙漠（日落红色沙丘）、梅兰谷（免费+四季皆可）、仙门奇峡（侠气漂流）
 
+![南岭红沙漠](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/shaoguan-nanling-reddesert.jpg) ![仙门奇峡](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/shaoguan-xianmen.jpg)
+
 ---
 
 ## 📍 益阳 · 10个小众宝地
+
+![益阳隐藏秘境](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/yiyang-cover.jpg)
 
 | 景点 | 地址 | 门票 | 特色 | 适合季节 |
 |------|------|------|------|---------|
@@ -129,6 +155,8 @@
 | **安化万福山** | 安化县G354 | **免费** | 自然景观+赏花，适合扶老携幼游玩 | 夏秋季 |
 
 > 🌟 特别推荐：罗文花海（春季油菜花天花板）、浮邱山（秋季银杏+古寺）、大通湖（生态遛娃）
+
+![罗文花海](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/yiyang-luowen.jpg) ![浮邱山](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/yiyang-fuqiushan.jpg)
 
 ---
 
