@@ -42,11 +42,11 @@
 ## 📁 数据文件结构
 
 ```
-city-travel-guide/
-├── SKILL.md                        # Skill 配置定义（WorkBuddy 加载入口）
-├── README.md                       # 项目文档（本文件）
+city-travel-guide/               ← GitHub 仓库根目录
+├── README.md                   # 项目文档（本文件）
+├── SKILL.md                    # Skill 配置定义（WorkBuddy 加载入口）
 ├── references/
-│   ├── cities_data.md             # 🗺️ 七城景点/美食/路线/消费档次
+│   ├── cities_data.md         # 🗺️ 七城景点/美食/路线/消费档次
 │   │   ├── 郴州：景点15 + 美食8 + 避坑5 + 路线3 + 消费3档
 │   │   ├── 清远：景点15 + 美食8 + 避坑5 + 路线3 + 消费3档
 │   │   ├── 衡阳：景点15 + 美食7 + 避坑5 + 路线3 + 消费3档
@@ -55,7 +55,7 @@ city-travel-guide/
 │   │   ├── 韶关：景点15 + 美食7 + 避坑5 + 路线3 + 消费3档
 │   │   └── 深圳：景点16 + 美食9 + 避坑5 + 路线3 + 消费3档
 │   │
-│   ├── hidden_attractions.md       # 🌿 59+ 小众隐藏景点全收录
+│   ├── hidden_attractions.md   # 🌿 59+ 小众隐藏景点全收录
 │   │   ├── 长沙：6个（桃花岭/隆平博物馆/裕湘纱厂/大山冲...）
 │   │   ├── 深圳：10个（甘坑客家镇/南头古城/金啤坊/北理莫斯科大学...）
 │   │   ├── 郴州：10个（马皇丘大峡谷/白廊/五盖山/便江...）
@@ -64,7 +64,7 @@ city-travel-guide/
 │   │   ├── 韶关：10个（南岭红沙漠/梅兰谷/仙门奇峡/通天箩...）
 │   │   └── 益阳：10个（罗文花海/浮邱山/大通湖/岳溪村...）
 │   │
-│   ├── recommended_shops.md       # 🏪 七城推荐店铺手册（大众点评实采）
+│   ├── recommended_shops.md   # 🏪 七城推荐店铺手册（大众点评实采）
 │   │   ├── 长沙：费大厨/天然台1908/张氏父子肥肠 等15家
 │   │   ├── 深圳：八合里/光明乳鸽/点都德/西塔老太太 等13家
 │   │   ├── 郴州：金国鱼粉/老邓鱼粉/东江鱼庄 等8家
@@ -73,13 +73,13 @@ city-travel-guide/
 │   │   ├── 韶关：陈金华白鹿面/龙姐私房菜 等12家
 │   │   └── 益阳：安化农家菜/茶油一杂鸡 等6家
 │   │
-│   ├── pitfalls_and_tips.md        # ⚠️ 深度避坑手册
+│   ├── pitfalls_and_tips.md   # ⚠️ 深度避坑手册
 │   │   └── 七城专属坑点表格 + 通用实用 Tips
 │   │
-│   └── recommendations.md          # 💡 各城最值得去的3处 + 隐藏宝藏
+│   └── recommendations.md     # 💡 各城最值得去的3处 + 隐藏宝藏
 │
 └── scripts/
-    └── city_travel_search.py       # 🔍 本地检索脚本（可选）
+    └── city_travel_search.py  # 🔍 本地检索脚本（可选）
 ```
 
 ---
@@ -95,7 +95,7 @@ city-travel-guide/
 在 WorkBuddy 中添加 Skill 时，输入以下 Raw 文件 URL：
 
 ```
-https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/city-travel-guide/SKILL.md
+https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/SKILL.md
 ```
 
 ### 方式三：本地使用
