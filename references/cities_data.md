@@ -215,14 +215,8 @@
 14. **飞来寺** — 千年古刹，北江边
 
 15. **七拱古驿道** — 南粤古道，历史人文，免费徒步
-
-
-
-### 🍜 特色美食
-
-
-
-### ⭐ 精选景点实景图
++
++### ⭐ 精选景点实景图
 
 
 
@@ -232,11 +226,6 @@
 
 
 
-### ⭐ 精选景点实景图
-
-
-
-| ![东江湖](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E9%83%B4%E5%B7%9E-%E4%B8%9C%E6%B1%9F%E6%B9%96.jpg) | ![高椅岭](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E9%83%B4%E5%B7%9E-%E9%AB%98%E6%A4%85%E5%B2%AD.jpg) | ![苏仙岭](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E9%83%B4%E5%B7%9E-%E8%8B%8F%E4%BB%99%E5%B2%AD.jpg) |
 
 
 
@@ -367,14 +356,8 @@
 14. **衡阳抗战纪念城** — 爱国主义教育基地，低收费
 
 15. **船山书院（王夫之故居）** — 明清思想家王夫之纪念地，低收费
-
-
-
-### 🍜 特色美食
-
-
-
-### ⭐ 精选景点实景图
++
++### ⭐ 精选景点实景图
 
 
 
@@ -649,14 +632,8 @@
 14. **青云洞** — 益阳老城区著名景点，门票低
 
 15. **益阳博物馆** — 免费，洞庭文化+出土文物
-
-
-
-### 🍜 特色美食
-
-
-
-### ⭐ 精选景点实景图
++
++### ⭐ 精选景点实景图
 
 
 
@@ -666,11 +643,6 @@
 
 
 
-### ⭐ 精选景点实景图
-
-
-
-| ![岳麓山](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E9%95%BF%E6%B2%99-%E5%B2%B3%E9%BA%93%E5%B1%B1.jpg) | ![超级文和友](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E9%95%BF%E6%B2%99-%E8%B6%85%E7%BA%A7%E6%96%87%E5%92%8C%E5%8F%8B.jpg) | ![五一广场](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E9%95%BF%E6%B2%99-%E4%BA%94%E4%B8%80%E5%B9%BF%E5%9C%BA.jpg) |
 
 
 
@@ -799,14 +771,8 @@
 14. **韶关风采楼** — 宋代古楼，市区地标，免费外观
 
 15. **坪石古镇** — 韶关北部，丹霞+红色文化，低收费
-
-
-
-### 🍜 特色美食
-
-
-
-### ⭐ 精选景点实景图
++
++### ⭐ 精选景点实景图
 
 
 
