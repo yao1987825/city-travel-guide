@@ -43,74 +43,59 @@
 
 > 以下图片均为高德地图 POI 实景图，托管于 GitHub CDN，全球可访问
 
-<style>
-.gallery img { width: 100%; max-width: 280px; height: auto; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; }
-.gallery-row { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin: 16px 0; }
-.gallery-item { text-align: center; flex: 1; min-width: 200px; max-width: 300px; }
-.gallery-item img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 8px; }
-</style>
-
 ### 七城封面
 
-<div class="gallery-row">
-  <div class="gallery-item">
-    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/长沙-封面.jpg" alt="长沙">
-    <p>🌆 长沙</p>
-  </div>
-  <div class="gallery-item">
-    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/深圳-封面.jpg" alt="深圳">
-    <p>🌆 深圳</p>
-  </div>
-  <div class="gallery-item">
-    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/郴州-封面.jpg" alt="郴州">
-    <p>🏔️ 郴州</p>
-  </div>
-  <div class="gallery-item">
-    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/清远-封面.jpg" alt="清远">
-    <p>🌿 清远</p>
-  </div>
-  <div class="gallery-item">
-    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/衡阳-封面.jpg" alt="衡阳">
-    <p>⛰️ 衡阳</p>
-  </div>
-  <div class="gallery-item">
-    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/韶关-封面.jpg" alt="韶关">
-    <p>🏜️ 韶关</p>
-  </div>
-  <div class="gallery-item">
-    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/益阳-封面.jpg" alt="益阳">
-    <p>🎋 益阳</p>
-  </div>
-</div>
+<table>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/长沙-封面.jpg" width="200"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/深圳-封面.jpg" width="200"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/郴州-封面.jpg" width="200"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/清远-封面.jpg" width="200"></td>
+</tr>
+<tr>
+<td align="center">🌆 长沙</td>
+<td align="center">🌆 深圳</td>
+<td align="center">🏔️ 郴州</td>
+<td align="center">🌿 清远</td>
+</tr>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/衡阳-封面.jpg" width="200"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/韶关-封面.jpg" width="200"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/益阳-封面.jpg" width="200"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">⛰️ 衡阳</td>
+<td align="center">🏜️ 韶关</td>
+<td align="center">🎋 益阳</td>
+<td></td>
+</tr>
+</table>
 
 ### 精选景点
 
-<div class="gallery-row">
-  <div class="gallery-item">
-    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/岳麓山.jpg" alt="岳麓山">
-    <p>岳麓山</p>
-  </div>
-  <div class="gallery-item">
-    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/世界之窗.jpg" alt="世界之窗">
-    <p>世界之窗</p>
-  </div>
-  <div class="gallery-item">
-    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/高椅岭.jpg" alt="高椅岭">
-    <p>高椅岭</p>
-  </div>
-  <div class="gallery-item">
-    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/英西峰林.jpg" alt="英西峰林">
-    <p>英西峰林</p>
-  </div>
-  <div class="gallery-item">
-    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/南岳衡山.jpg" alt="南岳衡山">
-    <p>南岳衡山</p>
-  </div>
-  <div class="gallery-item">
-    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/丹霞山.jpg" alt="丹霞山">
-    <p>丹霞山</p>
-  </div>
-</div>
+<table>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/岳麓山.jpg" width="180"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/世界之窗.jpg" width="180"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/高椅岭.jpg" width="180"></td>
+</tr>
+<tr>
+<td align="center">岳麓山</td>
+<td align="center">世界之窗</td>
+<td align="center">高椅岭</td>
+</tr>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/英西峰林.jpg" width="180"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/南岳衡山.jpg" width="180"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/丹霞山.jpg" width="180"></td>
+</tr>
+<tr>
+<td align="center">英西峰林</td>
+<td align="center">南岳衡山</td>
+<td align="center">丹霞山</td>
+</tr>
+</table>
 
 ---
 
