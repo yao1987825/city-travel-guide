@@ -1,7 +1,13 @@
 import argparse
 import asyncio
 import json
+import sys
 from pathlib import Path
+
+# 修复Windows控制台编码
+if sys.platform == 'win32':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 from login_helper import LoginHelper
 from xhs_utils.browser import XHSBrowser
