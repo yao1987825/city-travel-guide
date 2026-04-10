@@ -39,6 +39,26 @@
 
 ---
 
+## 🖼️ 视觉画廊
+
+> 以下图片均为 AI 生成，托管于 GitHub CDN，全球可访问
+
+### 七城封面
+
+| ![长沙](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/changsha-cover.jpg) | ![深圳](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/shenzhen-cover.jpg) | ![郴州](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/chenzhou-cover.jpg) |
+|:---:|:---:|:---:|
+| 🌆 长沙 | 🌆 深圳 | 🏔️ 郴州 |
+| ![清远](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/qingyuan-cover.jpg) | ![衡阳](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/hengyang-cover.jpg) | ![韶关](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/shaoguan-cover.jpg) |
+| 🌿 清远 | ⛰️ 衡阳 | 🏜️ 韶关 |
+
+### 精选景点
+
+| 裕湘纱厂 | 甘坑客家小镇 | 马皇丘大峡谷 | 天塘山 | 岐山雾海 | 罗文花海 |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![裕湘纱厂](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/changsha-yuxiang.jpg) | ![甘坑](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/shenzhen-gankeng.jpg) | ![马皇丘](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/chenzhou-mahuangqiu.jpg) | ![天塘山](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/qingyuan-tiantangshan.jpg) | ![岐山雾海](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/hengyang-qishan.jpg) | ![罗文花海](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/yiyang-luowen.jpg) |
+
+---
+
 ## 📁 数据文件结构
 
 ```
