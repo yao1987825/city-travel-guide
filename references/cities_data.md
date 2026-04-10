@@ -30,6 +30,8 @@
 
 ### 🍜 特色美食（实时价格版）
 
+![郴州美食-栖凤渡鱼粉](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/chenzhou-yufen.jpg)
+
 > 来源：搜狐号郴州美食攻略（2026年1月）、知乎郴州美食地图（2025年11月）
 
 | 美食 | 特色 | 实时参考价格 |
@@ -94,6 +96,8 @@
 
 ### 🍜 特色美食
 
+
+![清远美食-清远鸡](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/qingyuan-qingyuanji.jpg)
 | 美食 | 特色 | 实时参考价格 |
 |------|------|-------------|
 | **清远鸡（白切/清蒸）** | 全国闻名，300天+散养鸡，皮脆肉嫩骨髓香。英德镇上农家最正宗 | 农家乐**100-150元/只**；景区内**200-350元/只** |
@@ -156,6 +160,8 @@
 
 ### 🍜 特色美食
 
+
+![衡阳美食-石湾脆肚](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/hengyang-cuidu.jpg)
 | 美食 | 特色 | 实时参考价格 |
 |------|------|-------------|
 | **衡阳鱼粉** | 比郴州鱼粉汤更浓，鱼块更大，是衡阳人最爱的早餐 | 市区老街早餐**12-20元/碗** |
@@ -218,6 +224,8 @@
 16. **湖南大学老校区** — **免费**，民国建筑群，校园游
 
 ### 🍜 特色美食（实时价格版）
+
+![长沙美食-剁椒鱼头](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/changsha-duojiao.jpg)
 
 > 来源：花路网（2025年）、长沙本地宝茶颜悦色攻略
 
@@ -284,6 +292,8 @@
 
 ### 🍜 特色美食
 
+
+![益阳美食-安化农家菜](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/yiyang-anhua.jpg)
 | 美食 | 特色 | 实时参考价格 |
 |------|------|-------------|
 | **安化黑茶** | 千两茶/天尖茶，茶马古道文化载体；降脂保健功效 | 正规茶厂直购**100-500元/份**（品质差异大）；路边摊慎买 |
@@ -345,6 +355,8 @@
 
 ### 🍜 特色美食
 
+
+![韶关美食-白鹿面](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/shaoguan-bailu.jpg)
 > 来源：搜狐号仁化美食攻略（2026年2月）、韶关美食2025推荐综合
 
 | 美食 | 特色 | 实时参考价格 |
@@ -408,6 +420,8 @@
 15. **平安金融中心云际观光层** — 约**200元**，547米高空俯瞰深圳，新增AR导览
 
 ### 🍜 特色美食（实时价格，大众点评/美团数据）
+
+![深圳美食-光明乳鸽](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/shenzhen-pigeon.jpg)
 
 > 来源：搜狐美食榜单（2026年2月）、大众点评沙井生蚝推荐
 
