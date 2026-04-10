@@ -8,6 +8,8 @@
 
 ## 一、郴州
 
+![郴州封面](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E9%83%B4%E5%B7%9E-%E5%B0%81%E9%9D%A2.jpg)
+
 ### 🗺️ 必去景点（15+）
 
 > 来源：湖南省发改委官网、郴州本地宝、知乎攻略（2025年8月发布）、搜狐旅游
@@ -84,6 +86,8 @@
 
 ## 二、清远
 
+![清远封面](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E6%B8%85%E8%BF%9C-%E5%B0%81%E9%9D%A2.jpg)
+
 ### 🗺️ 必去景点（15+）
 
 > 来源：清远本地宝（2025年4月）、携程攻略（2025年11月）、清远本地宝漂流专题
@@ -105,6 +109,16 @@
 15. **七拱古驿道** — 南粤古道，历史人文，免费徒步
 
 ### 🍜 特色美食
+
+### ⭐ 精选景点实景图
+
+| ![黄腾峡](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E6%B8%85%E8%BF%9C-%E9%BB%84%E8%85%BE%E5%B3%A1.jpg) | ![英西峰林](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E6%B8%85%E8%BF%9C-%E8%8B%B1%E8%A5%BF%E5%B3%B0%E6%9E%97.jpg) | ![连州地下河](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E6%B8%85%E8%BF%9C-%E8%BF%9E%E5%B7%9E%E5%9C%B0%E4%B8%8B%E6%B2%B3.jpg) |
+
+
+### ⭐ 精选景点实景图
+
+| ![东江湖](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E9%83%B4%E5%B7%9E-%E4%B8%9C%E6%B1%9F%E6%B9%96.jpg) | ![高椅岭](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E9%83%B4%E5%B7%9E-%E9%AB%98%E6%A4%85%E5%B2%AD.jpg) | ![苏仙岭](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E9%83%B4%E5%B7%9E-%E8%8B%8F%E4%BB%99%E5%B2%AD.jpg) |
+
 
 
 ![清远美食-清远鸡](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/qingyuan-qingyuanji.jpg)
@@ -148,6 +162,8 @@
 
 ## 三、衡阳
 
+![衡阳封面](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E8%A1%A1%E9%98%B3-%E5%B0%81%E9%9D%A2.jpg)
+
 ### 🗺️ 必去景点（15+）
 
 > 来源：衡阳本地宝（2025年8月）、知乎衡山攻略（2025年2月）、搜狐旅游（2025年10月）
@@ -169,6 +185,11 @@
 15. **船山书院（王夫之故居）** — 明清思想家王夫之纪念地，低收费
 
 ### 🍜 特色美食
+
+### ⭐ 精选景点实景图
+
+| ![南岳衡山](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E8%A1%A1%E9%98%B3-%E5%8D%97%E5%B2%B3%E8%A1%A1%E5%B1%B1.jpg) | ![石鼓书院](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E8%A1%A1%E9%98%B3-%E7%9F%B3%E9%BC%93%E4%B9%A6%E9%99%A2.jpg) | ![回雁峰](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E8%A1%A1%E9%98%B3-%E5%9B%9E%E9%9B%81%E5%B3%B0.jpg) |
+
 
 
 ![衡阳美食-石湾脆肚](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/hengyang-cuidu.jpg)
@@ -211,6 +232,8 @@
 ---
 
 ## 四、长沙
+
+![长沙封面](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E9%95%BF%E6%B2%99-%E5%B0%81%E9%9D%A2.jpg)
 
 ### 🗺️ 必去景点（15+）
 
@@ -280,6 +303,8 @@
 
 ## 五、益阳
 
+![益阳封面](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E7%9B%8A%E9%98%B3-%E5%B0%81%E9%9D%A2.jpg)
+
 ### 🗺️ 必去景点（15+）
 
 > 来源：在那边旅行网（2026年版）、益阳旅游攻略综合
@@ -301,6 +326,16 @@
 15. **益阳博物馆** — 免费，洞庭文化+出土文物
 
 ### 🍜 特色美食
+
+### ⭐ 精选景点实景图
+
+| ![安化茶马古道](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E7%9B%8A%E9%98%B3-%E5%AE%89%E5%8C%96%E8%8C%B6%E9%A9%AC%E5%8F%A4%E9%81%93.jpg) | ![桃江竹海](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E7%9B%8A%E9%98%B3-%E6%A1%83%E6%B1%9F%E7%AB%B9%E6%B5%B7.jpg) | ![南洞庭湿地](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E7%9B%8A%E9%98%B3-%E5%8D%97%E6%B4%9E%E5%BA%AD%E6%B9%BF%E5%9C%B0.jpg) |
+
+
+### ⭐ 精选景点实景图
+
+| ![岳麓山](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E9%95%BF%E6%B2%99-%E5%B2%B3%E9%BA%93%E5%B1%B1.jpg) | ![超级文和友](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E9%95%BF%E6%B2%99-%E8%B6%85%E7%BA%A7%E6%96%87%E5%92%8C%E5%8F%8B.jpg) | ![五一广场](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E9%95%BF%E6%B2%99-%E4%BA%94%E4%B8%80%E5%B9%BF%E5%9C%BA.jpg) |
+
 
 
 ![益阳美食-安化农家菜](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/yiyang-anhua.jpg)
@@ -343,6 +378,8 @@
 
 ## 六、韶关
 
+![韶关封面](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E9%9F%B6%E5%85%B3-%E5%B0%81%E9%9D%A2.jpg)
+
 ### 🗺️ 必去景点（15+）
 
 > 来源：丹霞山官方网站（2025年8月发布）、韶关本地宝（2026年4月）、搜狐旅游（2025年10月）
@@ -364,6 +401,11 @@
 15. **坪石古镇** — 韶关北部，丹霞+红色文化，低收费
 
 ### 🍜 特色美食
+
+### ⭐ 精选景点实景图
+
+| ![丹霞山长老峰](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E9%9F%B6%E5%85%B3-%E4%B8%B9%E9%9C%9E%E5%B1%B1%E9%95%BF%E8%80%81%E5%B3%B0.jpg) | ![南华寺](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E9%9F%B6%E5%85%B3-%E5%8D%97%E5%8D%8E%E5%AF%BA.jpg) | ![乳源大峡谷](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E9%9F%B6%E5%85%B3-%E4%B9%B3%E6%BA%90%E5%A4%A7%E5%B3%A1%E8%B0%B7.jpg) |
+
 
 
 ![韶关美食-白鹿面](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/shaoguan-bailu.jpg)
@@ -408,6 +450,8 @@
 ---
 
 ## 七、深圳
+
+![深圳封面](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/references/amap_images/%E6%B7%B1%E5%9C%B3-%E5%B0%81%E9%9D%A2.jpg)
 
 ### 🗺️ 必去景点（15+）
 
