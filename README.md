@@ -76,9 +76,9 @@
 
 <table>
 <tr>
-<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/岳麓山.jpg" width="180"></td>
-<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/世界之窗.jpg" width="180"></td>
-<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/高椅岭.jpg" width="180"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/长沙-岳麓山.jpg" width="180"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/深圳-世界之窗.jpg" width="180"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/郴州-高椅岭.jpg" width="180"></td>
 </tr>
 <tr>
 <td align="center">岳麓山</td>
@@ -86,9 +86,9 @@
 <td align="center">高椅岭</td>
 </tr>
 <tr>
-<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/英西峰林.jpg" width="180"></td>
-<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/南岳衡山.jpg" width="180"></td>
-<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/丹霞山.jpg" width="180"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/清远-英西峰林.jpg" width="180"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/衡阳-南岳衡山.jpg" width="180"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/韶关-丹霞山长老峰.jpg" width="180"></td>
 </tr>
 <tr>
 <td align="center">英西峰林</td>
