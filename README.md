@@ -1,212 +1,267 @@
-# 🗺️ city-travel-guide
-
-> 七城旅游攻略 Skill — 为 AI 旅行助手打造的全方位旅游知识库
->
-> 覆盖郴州 · 清远 · 衡阳 · 长沙 · 益阳 · 韶关 · 深圳
-
-[![GitHub Repo](https://img.shields.io/badge/GitHub-yao1987825%2Fcity--travel--guide-brightgreen?style=flat-square&logo=github)](https://github.com/yao1987825/city-travel-guide)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-30%2B-brightgreen?style=flat-square)]()
-[![Attractions](https://img.shields.io/badge/Attractions-166%2B-brightgreen?style=flat-square)]()
-[![Hidden Spots](https://img.shields.io/badge/Hidden%20Spots-59-brightgreen?style=flat-square)]()
-
----
-
-## 📖 项目简介
-
-`city-travel-guide` 是一个专为 AI 旅行助手（WorkBuddy）设计的旅游知识库 Skill，涵盖中国中部和南部七座特色城市的景点、美食、避坑和小众秘境数据。
-
-### 🎯 核心能力
-
-- **景点推荐**：每城 15+ 景点，含实时票价、最佳游览季节、适合人群
-- **美食指南**：当地特色美食 + 具体店铺推荐（含地址、人均消费、必点菜）
-- **避坑手册**：城市专属坑点 + 真实破解方法
-- **小众秘境**：59+ 个当地人才知道的隐藏宝地（小红书攻略实采）
-- **消费分级**：低/中/高三档预算指南
-
----
-
-## 🌍 覆盖城市
-
-| 城市 | 景点数 | 特色标签 |
-|------|--------|---------|
-| 🏙️ **郴州** | 15+ | 丹霞高椅岭、东江湖雾漫、仰天湖草原、莽山温泉 |
-| 🏔️ **清远** | 15+ | 古龙峡漂流、连州地下河、英德溶洞、阳山云海 |
-| ⛰️ **衡阳** | 15+ | 南岳衡山、石鼓书院、雨母山艺术村落、岐山雾海 |
-| 🏯 **长沙** | 16+ | 岳麓山、橘子洲、费大厨/茶颜悦色、裕湘纱厂 |
-| 🎋 **益阳** | 15+ | 安化茶马古道、桃江竹海、罗文花海、云台山云海 |
-| 🏛️ **韶关** | 15+ | 丹霞山、南华寺、南岭红沙漠、梅关古道 |
-| 🌆 **深圳** | 16+ | 大梅沙/小梅沙、甘坑客家小镇、世界之窗、中英街 |
-
----
-
-## 🖼️ 视觉画廊
-
-> 以下图片均为高德地图 POI 实景图，托管于 GitHub CDN，全球可访问
-
-### 七城封面
-
-| ![长沙](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E9%95%BF%E6%B2%99-%E5%B0%81%E9%9D%A2.jpg) | ![深圳](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E6%B7%B1%E5%9C%B3-%E5%B0%81%E9%9D%A2.jpg) | ![郴州](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E9%83%B4%E5%B7%9E-%E5%B0%81%E9%9D%A2.jpg) |
-|:---:|:---:|:---:|
-| 🌆 长沙 | 🌆 深圳 | 🏔️ 郴州 |
-| ![清远](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E6%B8%85%E8%BF%9C-%E5%B0%81%E9%9D%A2.jpg) | ![衡阳](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E8%A1%A1%E9%98%B3-%E5%B0%81%E9%9D%A2.jpg) | ![韶关](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E9%9F%B6%E5%85%B3-%E5%B0%81%E9%9D%A2.jpg) |
-| 🌿 清远 | ⛰️ 衡阳 | 🏜️ 韶关 |
-
-### 精选景点
-
-| 岳麓山 | 世界之窗 | 高椅岭 | 英西峰林 | 南岳衡山 | 丹霞山 |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| ![岳麓山](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E9%95%BF%E6%B2%99-%E5%B2%B3%E9%BA%93%E5%B1%B1.jpg) | ![世界之窗](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E6%B7%B1%E5%9C%B3-%E4%B8%96%E7%95%8C%E4%B9%8B%E7%AA%97.jpg) | ![高椅岭](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E9%83%B4%E5%B7%9E-%E9%AB%98%E6%A4%85%E5%B2%AD.jpg) | ![英西峰林](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E6%B8%85%E8%BF%9C-%E8%8B%B1%E8%A5%BF%E5%B3%B0%E6%9E%97.jpg) | ![南岳衡山](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E8%A1%A1%E9%98%B3-%E5%8D%97%E5%B2%B3%E8%A1%A1%E5%B1%B1.jpg) | ![丹霞山](https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/%E9%9F%B6%E5%85%B3-%E4%B8%B9%E9%9C%9E%E5%B1%B1%E9%95%BF%E8%80%81%E5%B3%B0.jpg) |
-
----
-
-## 📁 数据文件结构
-
-```
-city-travel-guide/               ← GitHub 仓库根目录
-├── README.md                   # 项目文档（本文件）
-├── SKILL.md                    # Skill 配置定义（WorkBuddy 加载入口）
-├── references/
-│   ├── cities_data.md         # 🗺️ 七城景点/美食/路线/消费档次
-│   │   ├── 郴州：景点15 + 美食8 + 避坑5 + 路线3 + 消费3档
-│   │   ├── 清远：景点15 + 美食8 + 避坑5 + 路线3 + 消费3档
-│   │   ├── 衡阳：景点15 + 美食7 + 避坑5 + 路线3 + 消费3档
-│   │   ├── 长沙：景点16 + 美食10 + 避坑5 + 路线3 + 消费3档
-│   │   ├── 益阳：景点15 + 美食6 + 避坑5 + 路线3 + 消费3档
-│   │   ├── 韶关：景点15 + 美食7 + 避坑5 + 路线3 + 消费3档
-│   │   └── 深圳：景点16 + 美食9 + 避坑5 + 路线3 + 消费3档
-│   │
-│   ├── hidden_attractions.md   # 🌿 59+ 小众隐藏景点全收录
-│   │   ├── 长沙：6个（桃花岭/隆平博物馆/裕湘纱厂/大山冲...）
-│   │   ├── 深圳：10个（甘坑客家镇/南头古城/金啤坊/北理莫斯科大学...）
-│   │   ├── 郴州：10个（马皇丘大峡谷/白廊/五盖山/便江...）
-│   │   ├── 清远：8个（天塘山/八片山/桃花湖/油岭古寨...）
-│   │   ├── 衡阳：10个（雨母山艺术村落/岐山雾海/江口鸟洲...）
-│   │   ├── 韶关：10个（南岭红沙漠/梅兰谷/仙门奇峡/通天箩...）
-│   │   └── 益阳：10个（罗文花海/浮邱山/大通湖/岳溪村...）
-│   │
-│   ├── recommended_shops.md   # 🏪 七城推荐店铺手册（大众点评实采）
-│   │   ├── 长沙：费大厨/天然台1908/张氏父子肥肠 等15家
-│   │   ├── 深圳：八合里/光明乳鸽/点都德/西塔老太太 等13家
-│   │   ├── 郴州：金国鱼粉/老邓鱼粉/东江鱼庄 等8家
-│   │   ├── 清远：清远鸡47家地址清单
-│   │   ├── 衡阳：杨裕兴/石湾脆肚馆/祝圣寺素斋 等8家
-│   │   ├── 韶关：陈金华白鹿面/龙姐私房菜 等12家
-│   │   └── 益阳：安化农家菜/茶油一杂鸡 等6家
-│   │
-│   ├── pitfalls_and_tips.md   # ⚠️ 深度避坑手册
-│   │   └── 七城专属坑点表格 + 通用实用 Tips
-│   │
-│   └── recommendations.md     # 💡 各城最值得去的3处 + 隐藏宝藏
-│
-└── scripts/
-    └── city_travel_search.py  # 🔍 本地检索脚本（可选）
-```
-
----
-
-## 🔌 使用方式
-
-### 方式一：WorkBuddy Skill 市场安装（推荐）
-
-在 WorkBuddy 的「专家」→「Skill 市场」中搜索 `city-travel-guide`，点击安装即可。
-
-### 方式二：从 GitHub URL 导入
-
-在 WorkBuddy 中添加 Skill 时，输入以下 Raw 文件 URL：
-
-```
-https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/SKILL.md
-```
-
-### 方式三：本地使用
-
-克隆仓库后，可使用内置检索脚本验证数据：
-
-```bash
-# 验证景点数量
-python scripts/city_travel_search.py --count
-
-# 按城市查询景点
-python scripts/city_travel_search.py --city 郴州 --type attraction
-
-# 按城市查询美食
-python scripts/city_travel_search.py --city 深圳 --type food
-
-# 全量检索关键词
-python scripts/city_travel_search.py --keyword 免费
-```
-
----
-
-## 📡 数据来源（30+ 平台）
-
-| 类别 | 来源 |
-|------|------|
-| **景点票价** | 官方景区网站、湖南省发改委、丹霞山官网 |
-| **美食店铺** | 大众点评 2025 必吃榜、携程美食林、美团 |
-| **隐藏秘境** | 小红书爆款攻略、搜狐旅游、车主指南、清远本地宝 |
-| **避坑指南** | 花路网、大众点评、携程游记、真实游客反馈 |
-| **旅行路线** | 携程、马蜂窝、本地宝官方攻略 |
-
-> 数据采集时间：2026 年 4 月 | 价格信息为市场参考价，实际以景区/餐厅为准
-
----
-
-## ✨ 亮点功能
-
-### 🤫 隐藏秘境（小众人少景美）
-
-59+ 个当地人才知道的宝藏地，标注：
-- 📍 **具体地址**（可直接导航）
-- 🎫 **门票**（免费景点单独标注）
-- 📸 **出片指数 / 适合季节**
-- 💡 **推荐理由**
-
-### 🏪 店铺推荐（大众点评实采）
-
-- 具体店名、地址、人均消费
-- 必点菜推荐
-- 按预算快速选店（<20元 / 20-60元 / 60-100元 / 100+元）
-- 按场景选店（独旅早餐 / 带父母 / 情侣 / 深夜宵夜 / 文化体验）
-
-### ⚠️ 避坑手册
-
-- 城市专属坑点表格
-- 真实破解方法
-- 通用实用 Tips（交通/季节/预约）
-
----
-
-## 🔧 扩展与贡献
-
-欢迎提交 Issue 或 Pull Request！
-
-### 扩展城市
-
-1. 在 `references/cities_data.md` 按模板添加新城市章节
-2. 在 `references/recommended_shops.md` 添加推荐店铺
-3. 在 `references/hidden_attractions.md` 添加小众秘境
-4. 更新 `SKILL.md` 触发词列表和覆盖城市
-
-### 数据规范
-
-- 景点必须包含：名称、地址（大致范围即可）、门票、最佳季节、特色
-- 美食必须包含：店名、地址、人均消费、必点菜
-- 避坑条目必须包含：坑点、详细说明、破解方法
-
----
-
-## 📄 License
-
-MIT License — 欢迎自由使用、修改和分发
-
----
-
-## 👤 作者
-
-- **GitHub**: [yao1987825](https://github.com/yao1987825)
-- **Skill 平台**: [WorkBuddy](https://www.codebuddy.cn)
-
----
-
-> 💡 **提示**：数据会持续更新，关注本仓库获取最新版本！
+# 🗺️ city-travel-guide
+
+> 七城旅游攻略 Skill — 为 AI 旅行助手打造的全方位旅游知识库
+>
+> 覆盖郴州 · 清远 · 衡阳 · 长沙 · 益阳 · 韶关 · 深圳
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-yao1987825%2Fcity--travel--guide-brightgreen?style=flat-square&logo=github)](https://github.com/yao1987825/city-travel-guide)
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-30%2B-brightgreen?style=flat-square)]()
+[![Attractions](https://img.shields.io/badge/Attractions-166%2B-brightgreen?style=flat-square)]()
+[![Hidden Spots](https://img.shields.io/badge/Hidden%20Spots-59-brightgreen?style=flat-square)]()
+
+---
+
+## 📖 项目简介
+
+`city-travel-guide` 是一个专为 AI 旅行助手（WorkBuddy）设计的旅游知识库 Skill，涵盖中国中部和南部七座特色城市的景点、美食、避坑和小众秘境数据。
+
+### 🎯 核心能力
+
+- **景点推荐**：每城 15+ 景点，含实时票价、最佳游览季节、适合人群
+- **美食指南**：当地特色美食 + 具体店铺推荐（含地址、人均消费、必点菜）
+- **避坑手册**：城市专属坑点 + 真实破解方法
+- **小众秘境**：59+ 个当地人才知道的隐藏宝地（小红书攻略实采）
+- **消费分级**：低/中/高三档预算指南
+
+---
+
+## 🌍 覆盖城市
+
+| 城市 | 景点数 | 特色标签 |
+|------|--------|---------|
+| 🏙️ **郴州** | 15+ | 丹霞高椅岭、东江湖雾漫、仰天湖草原、莽山温泉 |
+| 🏔️ **清远** | 15+ | 古龙峡漂流、连州地下河、英德溶洞、阳山云海 |
+| ⛰️ **衡阳** | 15+ | 南岳衡山、石鼓书院、雨母山艺术村落、岐山雾海 |
+| 🏯 **长沙** | 16+ | 岳麓山、橘子洲、费大厨/茶颜悦色、裕湘纱厂 |
+| 🎋 **益阳** | 15+ | 安化茶马古道、桃江竹海、罗文花海、云台山云海 |
+| 🏛️ **韶关** | 15+ | 丹霞山、南华寺、南岭红沙漠、梅关古道 |
+| 🌆 **深圳** | 16+ | 大梅沙/小梅沙、甘坑客家小镇、世界之窗、中英街 |
+
+---
+
+## 🖼️ 视觉画廊
+
+> 以下图片均为高德地图 POI 实景图，托管于 GitHub CDN，全球可访问
+
+<style>
+.gallery img { width: 100%; max-width: 280px; height: auto; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; }
+.gallery-row { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin: 16px 0; }
+.gallery-item { text-align: center; flex: 1; min-width: 200px; max-width: 300px; }
+.gallery-item img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 8px; }
+</style>
+
+### 七城封面
+
+<div class="gallery-row">
+  <div class="gallery-item">
+    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/长沙-封面.jpg" alt="长沙">
+    <p>🌆 长沙</p>
+  </div>
+  <div class="gallery-item">
+    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/深圳-封面.jpg" alt="深圳">
+    <p>🌆 深圳</p>
+  </div>
+  <div class="gallery-item">
+    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/郴州-封面.jpg" alt="郴州">
+    <p>🏔️ 郴州</p>
+  </div>
+  <div class="gallery-item">
+    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/清远-封面.jpg" alt="清远">
+    <p>🌿 清远</p>
+  </div>
+  <div class="gallery-item">
+    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/衡阳-封面.jpg" alt="衡阳">
+    <p>⛰️ 衡阳</p>
+  </div>
+  <div class="gallery-item">
+    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/韶关-封面.jpg" alt="韶关">
+    <p>🏜️ 韶关</p>
+  </div>
+  <div class="gallery-item">
+    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/益阳-封面.jpg" alt="益阳">
+    <p>🎋 益阳</p>
+  </div>
+</div>
+
+### 精选景点
+
+<div class="gallery-row">
+  <div class="gallery-item">
+    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/岳麓山.jpg" alt="岳麓山">
+    <p>岳麓山</p>
+  </div>
+  <div class="gallery-item">
+    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/世界之窗.jpg" alt="世界之窗">
+    <p>世界之窗</p>
+  </div>
+  <div class="gallery-item">
+    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/高椅岭.jpg" alt="高椅岭">
+    <p>高椅岭</p>
+  </div>
+  <div class="gallery-item">
+    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/英西峰林.jpg" alt="英西峰林">
+    <p>英西峰林</p>
+  </div>
+  <div class="gallery-item">
+    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/南岳衡山.jpg" alt="南岳衡山">
+    <p>南岳衡山</p>
+  </div>
+  <div class="gallery-item">
+    <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/丹霞山.jpg" alt="丹霞山">
+    <p>丹霞山</p>
+  </div>
+</div>
+
+---
+
+## 📁 数据文件结构
+
+```
+city-travel-guide/               ← GitHub 仓库根目录
+├── README.md                   # 项目文档（本文件）
+├── SKILL.md                    # Skill 配置定义（WorkBuddy 加载入口）
+├── references/
+│   ├── cities_data.md         # 🗺️ 七城景点/美食/路线/消费档次
+│   │   ├── 郴州：景点15 + 美食8 + 避坑5 + 路线3 + 消费3档
+│   │   ├── 清远：景点15 + 美食8 + 避坑5 + 路线3 + 消费3档
+│   │   ├── 衡阳：景点15 + 美食7 + 避坑5 + 路线3 + 消费3档
+│   │   ├── 长沙：景点16 + 美食10 + 避坑5 + 路线3 + 消费3档
+│   │   ├── 益阳：景点15 + 美食6 + 避坑5 + 路线3 + 消费3档
+│   │   ├── 韶关：景点15 + 美食7 + 避坑5 + 路线3 + 消费3档
+│   │   └── 深圳：景点16 + 美食9 + 避坑5 + 路线3 + 消费3档
+│   │
+│   ├── hidden_attractions.md   # 🌿 59+ 小众隐藏景点全收录
+│   │   ├── 长沙：6个（桃花岭/隆平博物馆/裕湘纱厂/大山冲...）
+│   │   ├── 深圳：10个（甘坑客家镇/南头古城/金啤坊/北理莫斯科大学...）
+│   │   ├── 郴州：10个（马皇丘大峡谷/白廊/五盖山/便江...）
+│   │   ├── 清远：8个（天塘山/八片山/桃花湖/油岭古寨...）
+│   │   ├── 衡阳：10个（雨母山艺术村落/岐山雾海/江口鸟洲...）
+│   │   ├── 韶关：10个（南岭红沙漠/梅兰谷/仙门奇峡/通天箩...）
+│   │   └── 益阳：10个（罗文花海/浮邱山/大通湖/岳溪村...）
+│   │
+│   ├── recommended_shops.md   # 🏪 七城推荐店铺手册（大众点评实采）
+│   │   ├── 长沙：费大厨/天然台1908/张氏父子肥肠 等15家
+│   │   ├── 深圳：八合里/光明乳鸽/点都德/西塔老太太 等13家
+│   │   ├── 郴州：金国鱼粉/老邓鱼粉/东江鱼庄 等8家
+│   │   ├── 清远：清远鸡47家地址清单
+│   │   ├── 衡阳：杨裕兴/石湾脆肚馆/祝圣寺素斋 等8家
+│   │   ├── 韶关：陈金华白鹿面/龙姐私房菜 等12家
+│   │   └── 益阳：安化农家菜/茶油一杂鸡 等6家
+│   │
+│   ├── pitfalls_and_tips.md   # ⚠️ 深度避坑手册
+│   │   └── 七城专属坑点表格 + 通用实用 Tips
+│   │
+│   └── recommendations.md     # 💡 各城最值得去的3处 + 隐藏宝藏
+│
+└── scripts/
+    └── city_travel_search.py  # 🔍 本地检索脚本（可选）
+```
+
+---
+
+## 🔌 使用方式
+
+### 方式一：WorkBuddy Skill 市场安装（推荐）
+
+在 WorkBuddy 的「专家」→「Skill 市场」中搜索 `city-travel-guide`，点击安装即可。
+
+### 方式二：从 GitHub URL 导入
+
+在 WorkBuddy 中添加 Skill 时，输入以下 Raw 文件 URL：
+
+```
+https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/SKILL.md
+```
+
+### 方式三：本地使用
+
+克隆仓库后，可使用内置检索脚本验证数据：
+
+```bash
+# 验证景点数量
+python scripts/city_travel_search.py --count
+
+# 按城市查询景点
+python scripts/city_travel_search.py --city 郴州 --type attraction
+
+# 按城市查询美食
+python scripts/city_travel_search.py --city 深圳 --type food
+
+# 全量检索关键词
+python scripts/city_travel_search.py --keyword 免费
+```
+
+---
+
+## 📡 数据来源（30+ 平台）
+
+| 类别 | 来源 |
+|------|------|
+| **景点票价** | 官方景区网站、湖南省发改委、丹霞山官网 |
+| **美食店铺** | 大众点评 2025 必吃榜、携程美食林、美团 |
+| **隐藏秘境** | 小红书爆款攻略、搜狐旅游、车主指南、清远本地宝 |
+| **避坑指南** | 花路网、大众点评、携程游记、真实游客反馈 |
+| **旅行路线** | 携程、马蜂窝、本地宝官方攻略 |
+
+> 数据采集时间：2026 年 4 月 | 价格信息为市场参考价，实际以景区/餐厅为准
+
+---
+
+## ✨ 亮点功能
+
+### 🤫 隐藏秘境（小众人少景美）
+
+59+ 个当地人才知道的宝藏地，标注：
+- 📍 **具体地址**（可直接导航）
+- 🎫 **门票**（免费景点单独标注）
+- 📸 **出片指数 / 适合季节**
+- 💡 **推荐理由**
+
+### 🏪 店铺推荐（大众点评实采）
+
+- 具体店名、地址、人均消费
+- 必点菜推荐
+- 按预算快速选店（<20元 / 20-60元 / 60-100元 / 100+元）
+- 按场景选店（独旅早餐 / 带父母 / 情侣 / 深夜宵夜 / 文化体验）
+
+### ⚠️ 避坑手册
+
+- 城市专属坑点表格
+- 真实破解方法
+- 通用实用 Tips（交通/季节/预约）
+
+---
+
+## 🔧 扩展与贡献
+
+欢迎提交 Issue 或 Pull Request！
+
+### 扩展城市
+
+1. 在 `references/cities_data.md` 按模板添加新城市章节
+2. 在 `references/recommended_shops.md` 添加推荐店铺
+3. 在 `references/hidden_attractions.md` 添加小众秘境
+4. 更新 `SKILL.md` 触发词列表和覆盖城市
+
+### 数据规范
+
+- 景点必须包含：名称、地址（大致范围即可）、门票、最佳季节、特色
+- 美食必须包含：店名、地址、人均消费、必点菜
+- 避坑条目必须包含：坑点、详细说明、破解方法
+
+---
+
+## 📄 License
+
+MIT License — 欢迎自由使用、修改和分发
+
+---
+
+## 👤 作者
+
+- **GitHub**: [yao1987825](https://github.com/yao1987825)
+- **Skill 平台**: [WorkBuddy](https://www.codebuddy.cn)
+
+---
+
+> 💡 **提示**：数据会持续更新，关注本仓库获取最新版本！
