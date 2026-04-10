@@ -5,8 +5,9 @@
 > 覆盖郴州 · 清远 · 衡阳 · 长沙 · 益阳 · 韶关 · 深圳
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-yao1987825%2Fcity--travel--guide-brightgreen?style=flat-square&logo=github)](https://github.com/yao1987825/city-travel-guide)
-[![Data Sources](https://img.shields.io/badge/Data%20Sources-30%2B-brightgreen?style=flat-square)]()
+[![Data Sources](https://img.shields.io/badge/Data%20Sources-35%2B-brightgreen?style=flat-square)]()
 [![Attractions](https://img.shields.io/badge/Attractions-166%2B-brightgreen?style=flat-square)]()
+[![Images](https://img.shields.io/badge/Images-52-brightgreen?style=flat-square)]()
 [![Hidden Spots](https://img.shields.io/badge/Hidden%20Spots-59-brightgreen?style=flat-square)]()
 
 ---
@@ -41,7 +42,9 @@
 
 ## 🖼️ 视觉画廊
 
-> 以下图片均为高德地图 POI 实景图，托管于 GitHub CDN，全球可访问
+> 图片来源：
+> - 高德地图 POI 实景图（42张）
+> - 小红书热门攻略实拍（10张，2026-04-11）
 
 ### 七城封面
 
@@ -97,6 +100,17 @@
 </tr>
 </table>
 
+### 郴州小红书热门实拍（2026-04-11）
+
+| 美食篇 | 景点篇 |
+|--------|--------|
+| <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/郴州-美食-top1.jpg" width="200" height="150"> | <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/郴州-景点-东江湖雾.jpg" width="200" height="150"> |
+| 郑友财湘菜馆（1017赞） | 东江湖雾漫小东江（2731赞） |
+| <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/郴州-美食-必吃推荐.jpg" width="200" height="150"> | <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/郴州-景点-高椅岭.jpg" width="200" height="150"> |
+| 圆圆家私房美食（953赞） | 高椅岭丹霞（1254赞） |
+| <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/郴州-美食-热门.jpg" width="200" height="150"> | <img src="https://raw.githubusercontent.com/yao1987825/city-travel-guide/main/images/郴州-景点-仰天湖.jpg" width="200" height="150"> |
+| 高子烧鸡公 | 仰天湖大草原（1124赞） |
+
 ---
 
 ## 📁 数据文件结构
@@ -124,22 +138,34 @@ city-travel-guide/               ← GitHub 仓库根目录
 │   │   ├── 韶关：10个（南岭红沙漠/梅兰谷/仙门奇峡/通天箩...）
 │   │   └── 益阳：10个（罗文花海/浮邱山/大通湖/岳溪村...）
 │   │
-│   ├── recommended_shops.md   # 🏪 七城推荐店铺手册（大众点评实采）
+│   ├── recommended_shops.md   # 🏪 七城推荐店铺手册（小红书+大众点评实采）
 │   │   ├── 长沙：费大厨/天然台1908/张氏父子肥肠 等15家
 │   │   ├── 深圳：八合里/光明乳鸽/点都德/西塔老太太 等13家
-│   │   ├── 郴州：金国鱼粉/老邓鱼粉/东江鱼庄 等8家
+│   │   ├── 郴州：郑友财/圆圆家/高子烧鸡公/芳芳土菜馆 等8家
 │   │   ├── 清远：清远鸡47家地址清单
 │   │   ├── 衡阳：杨裕兴/石湾脆肚馆/祝圣寺素斋 等8家
 │   │   ├── 韶关：陈金华白鹿面/龙姐私房菜 等12家
 │   │   └── 益阳：安化农家菜/茶油一杂鸡 等6家
 │   │
+│   ├── price_database.md      # 💰 价格数据库（含小红书实时价格）
+│   │   └── 郴州小红书美食：人均35-80元（郑友财/圆圆家/高子烧鸡公）
+│   │
 │   ├── pitfalls_and_tips.md   # ⚠️ 深度避坑手册
 │   │   └── 七城专属坑点表格 + 通用实用 Tips
 │   │
-│   └── recommendations.md     # 💡 各城最值得去的3处 + 隐藏宝藏
+│   ├── recommendations.md     # 💡 各城最值得去的3处 + 隐藏宝藏
+│   │
+│   └── xhs_price_data.json    # 📊 小红书价格原始数据
 │
-└── scripts/
-    └── city_travel_search.py  # 🔍 本地检索脚本（可选）
+├── scripts/
+│   ├── download_xhs_images.py  # 📸 小红书图片下载器
+│   ├── xhs_price_scraper.py    # 💵 小红书价格获取脚本
+│   ├── xhs_main.py            # 🔍 小红书搜索入口
+│   └── xhs_utils/             # 小红书浏览器自动化模块
+│
+└── images/                     # 📷 图片库（52张）
+    ├── 高德POI实景图（42张）   # 七城景点封面和精选
+    └── 小红书热门图（10张）    # 郴州美食5张 + 景点5张
 ```
 
 ---
@@ -178,17 +204,20 @@ python scripts/city_travel_search.py --keyword 免费
 
 ---
 
-## 📡 数据来源（30+ 平台）
+## 📡 数据来源（35+ 平台）
 
 | 类别 | 来源 |
 |------|------|
-| **景点票价** | 官方景区网站、湖南省发改委、丹霞山官网 |
-| **美食店铺** | 大众点评 2025 必吃榜、携程美食林、美团 |
+| **景点票价** | 官方景区网站、湖南省发改委、丹霞山官网、小红书实时 |
+| **美食店铺** | 大众点评 2025 必吃榜、携程美食林、美团、小红书热门 |
 | **隐藏秘境** | 小红书爆款攻略、搜狐旅游、车主指南、清远本地宝 |
 | **避坑指南** | 花路网、大众点评、携程游记、真实游客反馈 |
 | **旅行路线** | 携程、马蜂窝、本地宝官方攻略 |
+| **价格数据** | 小红书 xhs-k-search 实时获取（2026-04-11） |
+| **美食图片** | 小红书热门帖子封面（点赞数 100+） |
+| **景点图片** | 高德地图 POI 实景图 + 小红书实拍 |
 
-> 数据采集时间：2026 年 4 月 | 价格信息为市场参考价，实际以景区/餐厅为准
+> 数据采集时间：2026 年 4 月 11 日 | 价格信息为市场参考价，实际以景区/餐厅为准
 
 ---
 
@@ -202,18 +231,26 @@ python scripts/city_travel_search.py --keyword 免费
 - 📸 **出片指数 / 适合季节**
 - 💡 **推荐理由**
 
-### 🏪 店铺推荐（大众点评实采）
+### 🏪 店铺推荐（小红书+大众点评实采）
 
-- 具体店名、地址、人均消费
+- 具体店名、地址、人均消费（小红书实时价格）
 - 必点菜推荐
 - 按预算快速选店（<20元 / 20-60元 / 60-100元 / 100+元）
 - 按场景选店（独旅早餐 / 带父母 / 情侣 / 深夜宵夜 / 文化体验）
+- 🔥 小红书热门标注（点赞数/收藏数）
 
 ### ⚠️ 避坑手册
 
 - 城市专属坑点表格
 - 真实破解方法
 - 通用实用 Tips（交通/季节/预约）
+
+### 📸 小红书图片库
+
+- 自动获取热门帖子封面图
+- 美食/景点分类整理
+- 点赞数 > 100 的高质量内容
+- 每月自动更新（通过 xhs-k-search）
 
 ---
 
