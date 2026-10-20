@@ -1,104 +1,72 @@
 ---
 name: city-travel-guide
 description: >
-  七城旅游攻略 + 智能旅游规划 Skill，覆盖郴州、清远、衡阳、长沙、益阳、韶关、深圳、上海。
-  支持城市深度攻略（景点/美食/避坑/小众秘境/消费档次）、个性化行程规划、
-  天气查询、导航路线、预算方案、城市对比与旅行建议。
+  七城旅游信息全攻略 Skill，覆盖郴州、清远、衡阳、长沙、益阳、韶关、深圳。
   当用户询问以下类型问题时触发：某城市有哪些好玩的地方、当地特色美食、
-  旅游避坑注意事项、推荐景点/餐厅、按预算的旅游安排、几日游怎么规划、
-  天气和路线建议、城市对比等。
-read-when: >
-  旅游攻略、旅游计划、出行规划、行程安排、景点推荐、必去景点、
-  省钱旅游、自由行攻略、几日游、怎么安排、哪些值得去、哪些可以跳过、
-  景点之间怎么走、交通方式、公交/驾车路线、高德地图导航、
-  查询天气、出发前看天气、穿衣建议、紫外线指数、城市对比、
-  哪个城市更适合旅游、旅行预算、路线规划
-metadata: >
-  {"openclaw":{"os":["linux","darwin","win32"],"requires":{"env":["AMAP_KEY"]},"note":"支持静态攻略与 AI 直接调用天气/导航 API，适合 WorkBuddy / Dify 等 Skill 场景"}}
+  旅游避坑注意事项、推荐景点或餐厅、按消费档次划分的旅游建议。
+  每个城市包含不少于 15 个景点，数据按"景点/美食/避坑/推荐/消费档次"五类组织。
+  支持实时天气查询、价格数据来源标注、智能路线规划。
 ---
 
-# city-travel-guide — 七城旅游全攻略 + 智能旅行规划
+# city-travel-guide — 七城旅游全攻略
 
 ## 覆盖城市
 
-郴州 · 清远 · 衡阳 · 长沙 · 益阳 · 韶关 · 深圳 · 上海
+郴州 · 清远 · 衡阳 · 长沙 · 益阳 · 韶关 · 深圳
 
 ---
 
 ## 触发词列表
 
-### 城市游玩类
+以下用户表达会触发本 Skill：
+
+**城市游玩类**
 - "XX 有什么好玩的" / "XX 旅游攻略" / "去 XX 玩什么"
 - "XX 必去景点" / "XX 值得去的地方" / "XX 旅游推荐"
 - "XX 几日游怎么安排"
 
-### 美食类
+**美食类**
 - "XX 有什么好吃的" / "XX 特色美食" / "XX 当地必吃"
 - "去 XX 吃什么" / "XX 美食攻略"
 
-### 避坑类
+**避坑类**
 - "去 XX 需要注意什么" / "XX 旅游踩坑" / "XX 旅游避坑"
 - "XX 旅游有什么坑" / "XX 旅游骗局"
 
-### 推荐类
+**推荐类**
 - "XX 有什么隐藏景点" / "XX 小众景点" / "推荐 XX 去哪里"
 - "XX 最值得去的" / "XX 宝藏景点"
 
-### 消费类
+**消费类**
 - "去 XX 旅游要花多少钱" / "XX 旅游预算" / "XX 高性价比旅游"
 - "XX 穷游攻略" / "XX 旅游消费档次"
 
-### 天气/路线类
+**天气路线类**
 - "XX 天气怎么样" / "XX 这几天适合旅游吗"
 - "XX 旅游路线推荐" / "XX 几天行程怎么安排"
 - "XX 现在漂流适合吗" / "去 XX 要带什么"
 
-### 规划/对比类
-- "我想去 XX 玩 3 天，预算多少，怎么安排"
-- "长沙和深圳哪个更适合旅游"
-- "郴州和衡阳哪个好玩"
-- "帮我做一份 XX 的旅行计划"
-
----
-
-## 能力概览
-
-本 Skill 同时支持两类能力：
-
-### 1) 城市知识库能力
-- 景点推荐（每城 15+）
-- 特色美食与具体店铺
-- 旅游避坑手册
-- 小众秘境 / 隐藏景点
-- 价格档次与预算参考
-- 城市对比与选择建议
-
-### 2) 智能规划能力
-- 根据出发日期、预算、旅行天数、体力、风格生成行程
-- 自动筛选景点，处理高价/远郊/时间冲突
-- 输出可执行的每日安排与关键建议
-- 结合天气/导航/交通信息进行更实用的旅行建议
+**跨城对比类**
+- "郴州和衡阳哪个好玩" / "长沙深圳哪个更适合旅游"
+- "这几个城市里最值得去的是哪个"
 
 ---
 
 ## 数据文件说明
 
-本 Skill 参考数据分为多类文件，覆盖攻略与规划两部分：
+本 Skill 的参考数据分六个文件，所有价格和信息均基于网络实时采集（30+数据源）：
 
-| 文件 | 内容 | 作用 |
-|------|------|------|
-| `references/cities_data.md` | 七城景点/美食/路线/消费档次 | 旅游攻略核心资料 |
-| `references/hidden_attractions.md` | 小众隐藏景点全收录 | 低调宝藏地推荐 |
-| `references/recommended_shops.md` | 推荐店铺手册 | 美食店铺与必点菜 |
-| `references/recommendations.md` | 最值得去的景点与城市精选 | 精选推荐 |
-| `references/price_database.md` | 景点/美食/住宿价格数据库 | 预算与价格参考 |
-| `references/pitfalls_and_tips.md` | 避坑手册 | 真实坑点与解决办法 |
-| `references/cities_attractions.md` | 规划所需景点元数据 | 行程生成数据 |
-| `references/food_guide.md` | 美食价格手册 | 预算与餐饮规划 |
-| `references/money_saving.md` | 省钱攻略 | 预算控制 |
-| `references/travel_schema.md` | 数据库结构示例 | 可选后台模型 |
-| `references/travel_api.md` | API 接口说明 | 可选后端设计 |
-| `references/amap_api.md` | 高德 API 文档 | 天气/导航接口说明 |
+| 文件 | 内容 | 数据来源 | 何时读取 |
+|------|------|---------|---------|
+| `references/cities_data.md` | 七城景点(15+含实时票价)、美食(含实时价格)、推荐路线、消费档次 | 官方景区网站、携程、本地宝、知乎攻略、搜狐旅游 | 用户问景点/美食/消费时 |
+| `references/pitfalls_and_tips.md` | 深度避坑手册、城市专属坑点表格、通用实用 Tips | 花路网、大众点评、携程游记、真实游客反馈 | 用户问避坑/注意事项时 |
+| `references/recommendations.md` | 各城最值得去的3处、隐藏宝藏、精选餐厅推荐 | 综合多平台高分评价 | 用户问推荐/隐藏景点时 |
+| `references/recommended_shops.md` | **七城推荐店铺手册**（含具体店名/地址/人均/必点菜） | **大众点评2025必吃榜**（长沙45家/深圳84家）、搜狐美食年终榜 | 用户问具体店铺/美食时 |
+| `references/hidden_attractions.md` | **七城隐藏/小众景点全收录**（含具体地址/门票/出片指数） | **小红书爆款攻略**（2025-2026年）+搜狐旅游+车主指南+本地宝 | 用户问小众/秘境/隐藏景点时 |
+| `references/price_database.md` | **七城官方价格数据库**（含景点门票/美食/住宿，标注数据来源和验证时间） | 携程、大众点评、景区官网、实地采集 | 用户问门票/价格/预算时 |
+
+> **数据采集时间**：2026年4月
+> **价格说明**：所有价格均标注来源和最后验证时间，请提醒用户"价格可能有变动，以实际为准"
 
 ---
 
@@ -107,176 +75,391 @@ metadata: >
 ### Step 1 — 识别意图与城市
 
 分析用户问题，提取：
-- 目标城市（单城 / 多城 / 全部）
-- 查询类型：景点 / 美食 / 避坑 / 推荐 / 预算 / 天气 / 路线 / 综合攻略 / 规划行程
-- 用户约束：预算、天数、出发日期、旅行风格、体力、是否带家人/情侣/朋友
+- **目标城市**（支持单城 / 多城 / 全部七城）
+- **查询类型**：景点 / 美食 / 避坑 / 推荐 / 消费档次 / 天气 / 路线 / 综合攻略
 
 ### Step 2 — 选择数据源
 
-- 用户问“景点/景区” → 读 `cities_data.md`
-- 用户问“美食/吃什么” → 读 `cities_data.md` + `recommended_shops.md`
-- 用户问“具体店铺/必吃店” → 优先读 `recommended_shops.md`
-- 用户问“门票/价格/预算” → 必须读 `price_database.md`
-- 用户问“避坑/注意事项” → 读 `pitfalls_and_tips.md`
-- 用户问“推荐/宝藏/隐藏” → 读 `recommendations.md` / `hidden_attractions.md`
-- 用户问“天气/这几天适合旅游吗” → 调用天气查询 API
-- 用户问“路线/几天怎么安排” → 调用导航/行程规划逻辑
-- 用户要求“综合攻略”或“帮我做计划”→ 读取相关全部文件
+根据查询类型读取对应 references 文件（见上表）。
+
+- 用户问"景点/景区"→ 读 `cities_data.md`
+- 用户问"美食/吃什么"→ 读 `cities_data.md` + `recommended_shops.md`
+- 用户问"哪家店/推荐餐厅/具体店铺"→ **优先读 `recommended_shops.md`**
+- 用户问"门票/价格/票价/花费"→ **必须读 `price_database.md`，引用数据来源**
+- 用户问"避坑/注意事项"→ 读 `pitfalls_and_tips.md`
+- 用户问"推荐/宝藏/隐藏"→ 读 `recommendations.md`
+- 用户问"人少景美/小众/秘境/隐藏/当地人才知道"→ **优先读 `hidden_attractions.md`**，备选 `recommendations.md`
+- 用户问"天气/这几天适合旅游吗"→ **调用天气查询 API**
+- 用户问"路线/行程/几天怎么安排"→ **调用路线规划功能**
+- 用户要求"综合攻略"→ 六个文件全读取
 
 ### Step 3 — 构建回答结构
 
-按用户需求输出以下任意组合：
+按以下结构输出（按用户需求选择全部或部分模块）：
 
 ```
 ## [城市名] 旅游攻略
 
 ### 🌤️ 天气预报（如用户问天气）
-### 🗺️ 必去景点
+（当前天气 + 未来3天预报 + 出行建议）
+
+### 🗺️ 必去景点（≥15个）
+（列出景点，注明门票/最佳时间/适合人群）
+> 💡 价格来源：见 [price_database.md](references/price_database.md)
+
 ### 🍜 特色美食
+（分类：街头小吃 / 正餐推荐 / 网红打卡 / 伴手礼）
+> 💡 价格来源：见 [price_database.md](references/price_database.md)
+
 ### ⚠️ 避坑提示
+（表格形式：坑点 | 详细说明 | 破解方法）
+
 ### 💡 推荐精选
-### 🌿 隐藏秘境
-### 💰 消费档次
-### 📅 推荐行程（如用户问路线或想做计划）
+（最值得去的3处 + 隐藏宝藏 + 精选餐厅）
+
+### 🌿 隐藏秘境（小众人少景美）
+（当用户问"小众/秘境/人少景美/当地人才知道"时，优先输出此模块）
+
+### 💰 消费档次分级
+（表格：档次 | 日均花费 | 住宿推荐 | 餐饮建议）
+
+### 📅 推荐行程（如用户问路线）
+（根据天气+时间+交通规划，包含每日起止时间）
 ```
 
 ### Step 4 — 价格数据必须标注来源
 
+**⚠️ 重要规则**：
 - 任何景点门票价格必须标注来源
 - 任何美食价格必须标注来源
-- 格式：`XX元/人 | [来源](链接) | 2026-04`
-- 每次回答结尾提醒：`💡 以上价格仅供参考，请以实际为准`
+- 格式：`XX元/人 | [携程](链接) | 2026-04`
+- 每次回答结尾提醒："💡 以上价格仅供参考，请以购票时实际价格为准"
 
 ---
 
-## 旅行规划能力
-
-### 输入字段（必填或推荐）
-
-| 字段 | 说明 | 默认值 |
-|------|------|--------|
-| `dest_city` | 目的地城市 | — |
-| `travel_days` | 出行天数 | — |
-| `depart_date` | 出发日期 | 今天 |
-| `budget_cny` | 总预算（元） | — |
-| `travel_style` | 旅行风格（可多选） | 文化、美食 |
-| `group_type` | 出行类型：solo/couple/family/friends | solo |
-| `mobility` | 体力：high/mid/low | mid |
-
-### 可选字段
-- `budget_level`：budget / mid / luxury
-- `prefer_free`：是否优先免费景点
-- `avoid_crowded`：是否避开拥挤景点
-- `include_disney`：是否纳入迪士尼等全天景点
-- `origin_city`：出发城市
-- `need_navi`：是否需要导航
-- `need_weather`：是否需要天气
-
-### 行程生成思路
-
-1. 先筛选目的地城市和用户偏好
-2. 按预算和体力选择景点
-3. 排除不适合的高价/远郊项目
-4. 将景点按天分组并安排顺序
-5. 结合天气和交通做修正
-6. 输出：每日路线 + 建议时长 + 预算分配 + 注意事项
-
----
-
-## 天气查询功能（高德天气 API）
+## 🌀 天气查询功能（和风天气 API）
 
 ### 触发时机
 - 用户问"XX 天气怎么样" / "XX 这几天适合旅游吗"
-- 用户规划行程时需要考虑天气
-- 用户问“漂流/日出/登山”等天气敏感活动
+- 用户规划路线时需要考虑天气
+- 用户问"漂流/日出/登山"等天气敏感活动
 
 ### 执行步骤
 
-1. 调用天气查询 API
-2. 获取实时天气 + 未来3天预报 + 生活指数
-3. 结合用户活动类型给出建议
+1. **调用天气查询函数**：
+   ```python
+   import sys
+   sys.path.insert(0, 'scripts')
+   from weather_config import QWEATHER_KEY, QWEATHER_BASE_URL, CITY_CODE_MAP
+   import json, gzip, urllib.request
+   
+   def fetch_weather(city_code):
+       url = f"{QWEATHER_BASE_URL}/weather/now?key={QWEATHER_KEY}&location={city_code}"
+       req = urllib.request.Request(url)
+       req.add_header('Accept-Encoding', 'gzip, deflate')
+       with urllib.request.urlopen(req, timeout=10) as r:
+           c = r.read()
+           if r.info().get('Content-Encoding') == 'gzip':
+               c = gzip.decompress(c)
+           return json.loads(c.decode('utf-8'))
+   
+   # 使用
+   city_code = CITY_CODE_MAP["郴州"]
+   data = fetch_weather(city_code)
+   ```
 
-### 示例
+2. **输出天气信息**：
+   ```
+   ### 🌤️ 郴州天气预报
+   
+   **当前天气**：小雨 19°C（体感18°C）
+   **风速**：北风 2级
+   **湿度**：100%
+   
+   **未来3天预报**：
+   - 2026-04-11：小雨 18~23°C，降水概率 40%
+   - 2026-04-12：小雨 17~21°C，降水概率 60%
+   - 2026-04-13：多云 16~24°C，降水概率 10%
+   
+   **💡 出行建议**：
+   - 今天有小雨，建议室内活动（博物馆、苏仙岭）
+   - 漂流/仰天湖等户外活动建议改期
+   - 随身携带雨具
+   ```
 
-```
-GET https://restapi.amap.com/v3/weather/weatherInfo
-  ?key={AMAP_KEY}
-  &city=郴州
-  &extensions=all
-  &output=JSON
-```
+### ⚠️ 和风天气 API Key 配置
 
-返回字段重点：
-- `lives[0].weather`
-- `lives[0].temperature`
-- `lives[0].humidity`
-- `forecasts[0].casts[]`
-- `forecasts[0].index[]`
+> 天气查询功能依赖和风天气 API。
+
+**配置步骤：**
+1. 打开 [和风天气开发者平台](https://dev.qweather.com/)，注册并创建应用
+2. 获取 Key（免费版每日1000次调用）
+3. 打开 `scripts/weather_config.py`，将 Key 填入：
+   ```python
+   QWEATHER_KEY = "你的Key"
+   ```
+
+**城市代码映射**：
+| 城市 | 代码 |
+|------|------|
+| 郴州 | 101250201 |
+| 清远 | 101280901 |
+| 衡阳 | 101260401 |
+| 长沙 | 101250101 |
+| 益阳 | 101270701 |
+| 韶关 | 101280201 |
+| 深圳 | 101280601 |
 
 ---
 
-## 导航路线功能（高德地图 API）
+## 🗺️ 智能路线规划功能
 
 ### 触发时机
-- 用户问“从 A 到 B 怎么走更方便”
-- 用户需要景点间交通建议
-- 用户想知道路线耗时和出行方式
+- 用户问"XX 几天行程怎么安排" / "XX 旅游路线"
+- 用户问"周末去 XX 怎么玩" / "XX 3日游攻略"
 
 ### 执行步骤
 
-1. 先地理编码（地名 → 经纬度）
-2. 再调用路线规划 API
-3. 返回驾车 / 公交 / 步行建议，并说明距离、耗时和费用
+1. **获取天气数据**（见上节）
+2. **读取景点数据**（cities_data.md）
+3. **根据天气筛选景点**：
+   - 晴天 → 推荐户外景点（漂流、登山、看日出）
+   - 雨天 → 推荐室内景点（博物馆、寺庙、溶洞）
+   - 高温 → 避免中午户外，推荐室内/水上活动
+4. **计算时间安排**：
+   - 考虑交通耗时
+   - 考虑景点游玩时长
+   - 考虑最佳游览时间
 
-### 示例
+### 路线规划输出格式
 
 ```
-GET https://restapi.amap.com/v3/geocode/geo
-  ?key={AMAP_KEY}
-  &address=长沙橘子洲
-  &city=长沙
+### 📅 推荐行程
+
+**Day 1 | 天气：☀️晴 20~28°C**
+| 时间 | 活动 | 地点 | 备注 |
+|------|------|------|------|
+| 08:00-09:00 | 早餐：栖凤渡鱼粉 | 郴州市区 | 当地人推荐 |
+| 09:00-13:00 | 东江湖·雾漫小东江 | 东江湖 | 观湖线55元，预计4小时 |
+| 13:00-14:00 | 午餐 | 东江湖农家乐 | 品尝东江鱼 |
+| 14:00-17:00 | 高椅岭丹霞 | 飞天山景区 | 80元，建议16点前到达 |
+
+**💡 今日建议**：
+- 清晨5:30起床可看雾漫小东江日出
+- 下午3点后避免长时间户外，注意防暑
+- 带伞，今日湿度较高
+
+**⚠️ 注意事项**：
+- 东江湖有观湖线/游湖线之分，提前确认票种
+- 高椅岭下午4点后光线渐暗，建议早去
+```
+
+### 景点天气偏好表
+
+| 景点类型 | 适合天气 | 不适合天气 |
+|---------|---------|-----------|
+| 漂流 | 晴/多云/阴 | 暴雨/台风 |
+| 日出/云海 | 晴/多云 | 阴/雨 |
+| 登山/徒步 | 晴/多云/阴 | 暴雨/雷电 |
+| 草原 | 晴/多云 | 暴雨/大风 |
+| 溶洞 | 无限制 | - |
+| 海边/沙滩 | 晴/多云 | 暴雨/台风 |
+| 博物馆/寺庙 | 无限制 | - |
+
+---
+
+## 📷 小红书数据获取功能（Playwright）
+
+### 触发时机
+
+- 用户问"小红书热门攻略" / "小红书推荐" / "xhs"
+- 需要获取小红书热门帖子/评论数据
+- 进行旅游目的地调研
+
+### 执行步骤
+
+1. **关键词搜索**：
+   ```bash
+   cd scripts && python xhs_main.py --keyword "郴州旅游攻略" --headless
+   ```
+
+2. **获取帖子详情**（需要登录状态）：
+   ```bash
+   cd scripts && python xhs_main.py --note-id <帖子ID> --xsec-token <token>
+   ```
+
+3. **登录管理**：
+   ```bash
+   cd scripts && python xhs_main.py --login
+   ```
+
+### 数据结构
+
+| 字段 | 说明 |
+|------|------|
+| note_id | 帖子ID |
+| title | 标题 |
+| liked_count | 点赞数 |
+| comment_count | 评论数 |
+| collect_count | 收藏数 |
+| desc | 正文内容 |
+
+### 输出格式
+
+```
+## 小红书热门帖子：{关键词}
+
+| 标题 | 作者 | 点赞 | 评论 | 收藏 |
+|------|------|------|------|------|
+| ... | ... | ... | ... | ... |
+
+[帖子链接](链接)
+```
+
+### 注意事项
+
+- 首次使用需执行 `--login` 登录
+- 登录状态保存在 `scripts/auth.json`
+- 遵守小红书用户协议，仅供个人学习研究使用
+- 避免高频请求，建议间隔 2-3 秒
+
+---
+
+## 📷 图片获取功能（高德地图 + 百度图片）
+
+### 执行步骤
+
+1. **优先调用高德地图 POI API**：
+   ```python
+   # 高德地图搜索
+   from amap_config import AMAP_KEY
+   import urllib.request, urllib.parse, json
+   
+   def search_amap(keyword, city, types=None):
+       url = "https://restapi.amap.com/v3/place/text"
+       params = {"key": AMAP_KEY, "keywords": keyword, "city": city, "output": "json"}
+       if types:
+           params["types"] = types
+       # ... 请求并返回结果
+   ```
+
+2. **若高德无图片，备选百度图片搜索**：
+   ```python
+   # 百度图片搜索（需安装 pip install baiduspider）
+   from baiduspider import BaiduSpider
+   spider = BaiduSpider()
+   result = spider.search_image(keyword="郴州 东江湖", pn=1, rn=3)
+   ```
+
+3. **图片匹配规则**：
+   - 景点图片：搜索"城市+景点名+景点"关键词
+   - 美食图片：搜索"城市+美食名+美食"关键词
+   - 选择清晰、正面、包含招牌/菜品的图片
+
+---
+
+## 💰 价格数据规范
+
+### ⚠️ 必须遵循的规则
+
+1. **每次回答价格必须标注来源**
+2. **格式**：`价格 | 来源 | 验证时间`
+3. **示例**：
+   ```
+   - 东江湖观湖线：55元/人 | [湖南省发改委](链接) | 2026-04
+   - 茶颜悦色：15-25元/杯 | [大众点评](链接) | 2026-04
+   ```
+
+### 价格数据文件
+
+`references/price_database.md` 包含：
+- 七城所有景点门票（官方价/网购价/优惠政策）
+- 七城特色美食参考价格
+- 七城住宿参考价格
+- 每个价格都标注来源URL和验证时间
+- 包含价格验证链接（携程/大众点评/景区官网）
+
+### 价格验证建议
+
+每次回答结尾提醒用户：
+```
+💡 温馨提示：
+- 以上价格仅供参考，请以购票/点餐时实际价格为准
+- 建议出行前通过以下渠道核实价格：
+  • 景点门票：景区官方公众号
+  • 餐饮价格：大众点评查看近期评价
+  • 住宿价格：携程/美团比较多家
+```
+
+---
+
+## 多城对比输出格式
+
+当用户询问多城对比时，使用以下结构：
+
+```
+## 城市对比：[城市A] vs [城市B]
+
+| 维度 | 城市A | 城市B |
+|------|-------|-------|
+| 核心亮点 | ... | ... |
+| 特色美食 | ... | ... |
+| 交通便利 | ... | ... |
+| 消费水平 | ... | ... |
+| 最佳季节 | ... | ... |
+| 适合人群 | ... | ... |
+
+结论：...
 ```
 
 ---
 
 ## 输出质量要求
 
-1. 景点数量：每城不少于 15 个，注明门票价格及最佳时间
-2. 美食描述：包含特色、推荐店铺、价格参考（必须标注来源）
-3. 避坑提示：使用表格形式，覆盖典型坑点与解决办法
-4. 消费档次：必须给出三档明确金额区间
-5. 天气路线：规划行程时必须含天气因素和时间安排
-6. 实用性：信息必须对用户有明确帮助
-
----
-
-## 适配说明
-
-本 Skill 兼容以下使用场景：
-- WorkBuddy Skill
-- Dify 插件式知识库
-- GitHub Raw 导入
-- 本地脚本检索和开发扩展
+1. **景点数量**：每城不少于 15 个，注明门票价格及最佳时间
+2. **美食描述**：包含特色描述 + 推荐店铺/区域 + 价格参考（**必须标注来源**）
+3. **避坑提示**：使用表格形式，覆盖该城市最典型的 4-6 个坑
+4. **消费档次**：三档必须给出具体金额区间，不可含糊
+5. **天气路线**：规划行程时必须包含天气因素和具体时间安排
+6. **实用性**：每条信息需要对读者有实际帮助，避免空泛描述
 
 ---
 
 ## 快速检索命令参考
 
 ```bash
-# 查询某城市美食
+# 查询某城市的美食
 python scripts/city_travel_search.py --city 郴州 --type food
 
-# 查询某城市景点
-python scripts/city_travel_search.py --city 长沙 --type attraction
+# 查询某城市的避坑信息
+python scripts/city_travel_search.py --city 长沙 --type pitfall
 
-# 查询避坑信息
-python scripts/city_travel_search.py --city 深圳 --type pitfall
+# 查询所有城市的推荐景点
+python scripts/city_travel_search.py --type recommend
 
-# 验证景点数量
+# 验证景点数量是否达标（每城≥15个）
 python scripts/city_travel_search.py --count
 
-# 全部城市相关信息
+# 全部七城综合信息
 python scripts/city_travel_search.py --type all
+
+# 关键词搜索（如搜索温泉相关内容）
+python scripts/city_travel_search.py --keyword 温泉
+
+# 获取天气预报（需配置weather_config.py）
+python scripts/itinerary_planner.py --city 郴州 --days 2
+
+# 获取景点/美食图片（需配置amap_config.py）
+python scripts/amap_images.py --city 郴州 --keyword 东江湖
+
+# 生成个性化行程规划
+python scripts/generate_plan.py --interactive
+
+# 高德导航查询
+python scripts/amap_nav.py --from "橘子洲头" --to "岳麓山" --city 长沙 --mode transit
+
+# 查询真实天气预报
+python scripts/amap_nav.py --weather 郴州
 ```
 
 ---
@@ -285,20 +468,34 @@ python scripts/city_travel_search.py --type all
 
 | 功能 | 配置文件 | 申请地址 |
 |------|---------|---------|
-| 高德地图 | `scripts/amap_config.py` | https://console.amap.com/dev/key/app |
-| 和风天气 | `scripts/weather_config.py` | https://dev.qweather.com/ |
+| 高德地图（图片获取） | `scripts/amap_config.py` | https://console.amap.com/dev/key/app |
+| 和风天气（天气预报） | `scripts/weather_config.py` | https://dev.qweather.com/ |
 
-> 免费额度：高德地图每日 5000 次；和风天气免费版每日 1000 次。
-
----
-
-## License
-
-MIT License
+> **免费额度**：
+> - 高德地图：每日5000次
+> - 和风天气：每日1000次（免费版）
 
 ---
 
-## 作者
+## 统一命令速查（新增）
 
-- GitHub: [yao1987825](https://github.com/yao1987825)
-- Skill 平台: [WorkBuddy](https://www.codebuddy.cn)
+```bash
+# 城市旅游查询
+python scripts/city_travel_search.py --city 郴州 --type attraction
+python scripts/city_travel_search.py --city 深圳 --type food
+python scripts/city_travel_search.py --keyword 温泉
+
+# 行程规划
+python scripts/generate_plan.py --interactive
+python scripts/generate_plan.py --profile ./travel_profile.json --output ./travel_output
+
+# 导航与天气
+python scripts/amap_nav.py --from "长沙橘子洲" --to "岳麓山" --city 长沙 --mode transit
+python scripts/amap_nav.py --weather 郴州
+python scripts/amap_nav.py --weather-live 深圳
+
+# 智能路线推荐
+python scripts/itinerary_planner.py --city 郴州 --days 2 --budget 中档
+```
+
+以上命令统一覆盖了攻略查询、天气查询、导航、以及自动化行程生成四类能力，适合本地开发和日常使用。
